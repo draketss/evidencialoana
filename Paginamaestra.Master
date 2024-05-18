@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Paginamaestra.master.cs" Inherits="Pagina_Maestra.Paginamaestra" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="estilos2.css" rel="stylesheet" />
+</head>
+<body>
+ <form id="form1" runat="server">
+     <div>
+         <div id="navbar">
+             <ul>
+              <li><a href="pagina1.aspx">Hombre</a></li>
+              <li><a href="pagina2.aspx">Mujer</a></li>
+              <li><a href="pagina3.aspx">Niños</a></li>
+              <li><a href="pagina4.aspx">Ofertas</a></li>
+             </ul>
+     </div>
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+         </asp:ContentPlaceHolder>
+         <div id="footer">
+             <span>Desarollo de sistemas web</span>
+             <span>Tecnico en programacion web</span>
+         </div>
+     </div>
+ </form>
+</body>
+</html>
