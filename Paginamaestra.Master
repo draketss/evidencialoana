@@ -18,7 +18,7 @@
               <li><a href="pagina1.aspx">Hombre</a></li>
               <li><a href="pagina2.aspx">Mujer</a></li>
               <li><a href="pagina3.aspx">Niños</a></li>
-              <li><a href="pagina4.aspx">Ofertas</a></li>
+              <li><a href="pagina4.aspx">Encuesta</a></li>
              </ul>
      </div>
          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
